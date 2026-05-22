@@ -3,6 +3,133 @@ layout: default
 title: Oluchi Mbonu
 ---
 
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+    body {
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 16px;
+      color: #222;
+      background: #fff;
+    }
+ 
+    /* ── NAV ── */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 40px;
+      border-bottom: 1px solid #ddd;
+    }
+ 
+    nav .site-name {
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #111;
+      text-decoration: none;
+    }
+ 
+    nav .nav-links {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      font-size: 14px;
+    }
+ 
+    nav .nav-links a {
+      color: #222;
+      text-decoration: none;
+      font-weight: 400;
+    }
+ 
+    nav .nav-links a.active {
+      font-weight: 700;
+    }
+ 
+    nav .nav-links a:hover {
+      text-decoration: underline;
+    }
+ 
+    nav .nav-links .sep {
+      color: #aaa;
+      font-size: 12px;
+      line-height: 1;
+    }
+ 
+    /* ── MAIN ── */
+    main {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 40px;
+    }
+ 
+    .profile {
+      display: flex;
+      gap: 50px;
+      align-items: flex-start;
+    }
+ 
+    .profile img {
+      width: 260px;
+      height: 290px;
+      object-fit: cover;
+      flex-shrink: 0;
+      display: block;
+    }
+ 
+    .bio {
+      padding-top: 8px;
+      line-height: 1.75;
+      color: #222;
+      font-size: 15.5px;
+    }
+ 
+    .bio p + p {
+      margin-top: 24px;
+    }
+ 
+    .bio a {
+      color: #222;
+      text-decoration: underline;
+    }
+ 
+    .bio a:hover {
+      color: #000;
+    }
+ 
+    /* ── SOCIAL ICONS ── */
+    .social-links {
+      display: flex;
+      gap: 12px;
+      margin-top: 40px;
+      align-items: center;
+    }
+ 
+    .social-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+ 
+    .social-links a:hover { color: #000; }
+ 
+    .social-links svg {
+      width: 22px;
+      height: 22px;
+    }
+ 
+    /* LinkedIn uses brand blue */
+    .social-links a.linkedin svg { color: #0a66c2; }
+    /* BlueSky uses brand blue */
+    .social-links a.bluesky svg { color: #0085ff; }
+  </style>
+
 <div class="row marketing">
 	<div class="col-md-4">
 		<img class="avatar" alt="Headshot: Oluchi Mbonu" src="img/jmcglone-200px.png">
