@@ -2,6 +2,14 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+.profile img {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
+  max-width: 180px;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
